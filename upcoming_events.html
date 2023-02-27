@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+      <div class="container-header">
+          <div class="container-navigation">
+            <div class="logo">
+              <figure>
+                <img src="./assets/img/Logo Amazing Events.png" alt="" class="logo">
+              </figure>
+            </div>
+            <div class="nav">
+              <nav class="button">
+                <ul class="nav nav-tabs ">
+                  <li class="nav-item">
+                    <a class="nav-link " href="./home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-bg-danger" href="#">Upcoming Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./past_events.html">Past Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./stats.html">Stats</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+            <div class="carousel">
+              <a href="./home.html" class="left"><img src="/assets/img/izquierda.png" alt="" class="left-arrow"></a>
+              <figure class="banner">
+                <img src="./assets/img/banner2.png" alt="" class="banner">
+              </figure>
+              <a href="./past_events.html" class="right"><img src="./assets/img/derecha.png" alt="" class="right-arrow"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container-main">
+        <div class="select">
+          <div class="opc">
+            <form action="" method="get"  >
+              <label>
+                <span class="form">category</span>
+                <input type="checkbox" name="category" id="category">
+              </label>
+              <label>
+                <span class="form">category</span>
+                <input type="checkbox" name="category" id="category">
+              </label>
+              <label>
+                <span class="form">category</span>
+                <input type="checkbox" name="category" id="category">
+              </label>
+              <label>
+                <span>category</span>
+                <input type="checkbox" name="category" id="category">
+              </label>
+              <label>
+                <span class="form">category</span>
+                <input type="checkbox" name="category" id="category">
+              </label>
+            </form>
+          </div>
+          <div class="seeker">
+            <input type="text"  placeholder="search">
+            <div class="btn">
+              <figure>
+                <img src="./assets/img/buscando.png" alt="" class="seeker">
+              </figure> 
+            </div>
+          </div>
+        </div>
+      <div id="card_container">
+        <!--<div class="card-column">
+          <div class="cards1">
+            <div class="card1">
+              <figure class="card">
+                <img src="./assets/img/Cinema.jpg" alt="" class="card1">
+              </figure>
+              <div class="body-card">
+                <div class="des">
+                  <h4>Título</h4>
+                  <p class="description">Texto descriptivo</p>
+                </div>
+                <div class="footer-card">
+                  <div>
+                    <p class="description-footer">Price $0.000</p>
+                  </div>
+                  <div class="button-footer">
+                    <button type="button" class="btn btn-outline-danger"><a href="./details.html">Ver Más</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card2">
+              <figure class="card">
+                <img src="./assets/img/Costume_Party.jpg" alt="" class="card2">
+              </figure>
+              <div class="body-card">
+                <div class="des">
+                  <h4>Título</h4>
+                  <p class="description">Texto descriptivo</p>
+                </div>
+                <div class="footer-card">
+                  <div>
+                    <p class="description-footer">Price $0.000</p>
+                  </div>
+                  <div class="button-footer">
+                    <button type="button" class="btn btn-outline-danger"><a href="./details.html">Ver Más</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card3">
+              <figure class="card">
+                <img src="./assets/img/Food_Fair.jpg" alt="" class="card3">
+              </figure>
+              <div class="body-card">
+                <div class="des">
+                  <h4>Título</h4>
+                  <p class="description">Texto descriptivo</p>
+                </div>
+                <div class="footer-card">
+                  <div>
+                    <p class="description-footer">Price $0.000</p>
+                  </div>
+                  <div class="button-footer">
+                    <button type="button" class="btn btn-outline-danger"><a href="./details.html">Ver Más</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cards2">
+            <div class="card4">
+              <figure class="card">
+                <img src="./assets/img/Marathon.jpg" alt="" class="card4">
+              </figure>
+              <div class="body-card">
+                <div class="des">
+                  <h4>Título</h4>
+                  <p class="description">Texto descriptivo</p>
+                </div>
+                <div class="footer-card">
+                  <div>
+                    <p class="description-footer">Price $0.000</p>
+                  </div>
+                  <div class="button-footer">
+                    <button type="button" class="btn btn-outline-danger"><a href="./details.html">Ver Más</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card5">
+              <figure class="card">
+                <img src="./assets/img/Museum_Tour.jpg" alt="" class="card5">
+              </figure>
+              <div class="body-card">
+                <div class="des">
+                  <h4>Título</h4>
+                  <p class="description">Texto descriptivo</p>
+                </div>
+                <div class="footer-card">
+                  <div>
+                    <p class="description-footer">Price $0.000</p>
+                  </div>
+                  <div class="button-footer">
+                    <button type="button" class="btn btn-outline-danger"><a href="./details.html">Ver Más</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card6">
+              <figure class="card">
+                <img src="./assets/img/Music_Concert.jpg" alt="" class="card6">
+              </figure>
+              <div class="body-card">
+                <div class="des">
+                  <h4>Título</h4>
+                  <p class="description">Texto descriptivo</p>
+                </div>
+                <div class="footer-card">
+                  <div>
+                    <p class="description-footer">Price $0.000</p>
+                  </div>
+                  <div class="button-footer">
+                    <button type="button" class="btn btn-outline-danger"><a href="./details.html">Ver Más</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="social-networks">
+              <img src="./assets/img/like.png" alt="" class="social1">
+              <img src="./assets/img/instagram.png" class="social2" alt="">
+              <img src="./assets/img/facebook.png" class="social3" alt="">
+              <img src="./assets/img/whatsapp.png" class="social4" alt="">
+
+            </div>
+            <div class="cohort">
+              <h2 class="cohort">FE10</h2>
+            </div>
+        </div>
+    </footer>
+    <script src="./JavaScript/data.js"></script>
+    <script src="./JavaScript/upcoming_events.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

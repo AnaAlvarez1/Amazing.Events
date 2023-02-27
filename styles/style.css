@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+*{
+    font-family: 'PT Serif', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.container-header{
+    display: flex;
+    flex-direction: column;  
+}
+div.container-navigation{
+    display: flex; 
+}
+div.nav{
+    padding: 25px;
+    background-image: url("/assets/img/footer.jpg");
+    width: 100%;
+    justify-content: center;
+}
+img.logo{
+    width: 50%;
+    margin: 5%;
+    
+}
+div.logo{
+    background-color: black;
+}
+div.carousel{
+    background-color: rgb(211, 150, 184);
+    display: flex;
+    justify-content: space-between;
+}
+a.left{
+    margin-top: 25%;
+    
+}
+a.right{
+    margin-top: 25%;
+}
+
+div.container-footer{
+    position: relative;
+}
+div.social-networks{
+    display: flex; 
+}
+h1{
+    text-align: center;
+}
+img.social1{
+    position: absolute;
+    margin: 4px;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+}
+img.social2{
+    position: absolute;
+    margin: 4px;
+    left: 5%;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+}
+img.social3{
+    position: absolute;
+    margin: 4px;
+    left: 10%;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+}
+img.social4{
+    position: absolute;
+    margin: 4px;
+    left: 15%;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+}
+h2{
+    position: absolute;
+    left: 85%;
+}
+
+h2.cohort{
+    color: black;
+    position: absolute;
+    display: inline-block;
+}
+
+nav.button{
+    display: flex;
+    justify-content: center;
+}
+/*
+div.card-column{
+    display: flex;
+    flex-direction: column ;
+}
+*/
+div.cards1{
+    display: flex;
+    flex-direction: row; 
+    margin: 15px;
+}
+/*
+div.cards2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+div.container-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+*/
+a>img{
+    margin-top: 50%;
+}
+
+img.right-arrow{
+    width: 35px;
+}
+
+img.left-arrow{
+    width: 35px;
+}
+
+span{
+    width: 100%;
+    justify-content: center;
+}
+
+div.card1{
+    width: 23.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgb(95, 63, 95);
+    box-shadow: 5px 5px 10px rgb(63, 52, 63);
+    background-image: url("/assets/img/card.jpg");
+    margin: 10px;
+}
+/*
+div.card2{
+    width: 22.7% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgb(95, 63, 95);
+    box-shadow: 5px 5px 10px rgb(63, 52, 63);
+    background-image: url("/assets/img/card.jpg");
+}
+
+div.card3{
+    width: 22.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgb(95, 63, 95);
+    box-shadow: 5px 5px 10px rgb(63, 52, 63);
+    background-image: url("/assets/img/card.jpg");
+}
+
+div.card4{
+    width: 22.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgb(95, 63, 95);
+    box-shadow: 5px 5px 10px rgb(63, 52, 63);
+    background-image: url("/assets/img/card.jpg");
+}
+
+div.card5{
+    width: 22.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgb(95, 63, 95);
+    box-shadow: 5px 5px 10px rgb(63, 52, 63);
+    background-image: url("/assets/img/card.jpg");
+}
+
+div.card6{
+    width: 22.6% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgb(95, 63, 95);
+    box-shadow: 5px 5px 10px rgb(63, 52, 63);
+    background-image: url("/assets/img/card.jpg");
+}
+*/
+div.footer-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+div.body-card{
+    display: flex;
+    flex-direction: column;
+}
+
+div.des{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+figure.card{
+    margin-top: 18%;
+    background-color: #cd0362;
+}
+img.card1{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+}
+/*
+img.card2{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+img.card3{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+img.card4{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+img.card5{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+img.card6{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+}
+*/
+footer{
+    background-image: url("/assets/img/footer.jpg");
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a.btn{
+
+    padding: 9px;
+    height: 60px;
+    margin: 0.5%;
+    color: rgb(117, 87, 104);
+}
+
+div.select{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+form{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+table{
+    margin-left: auto;
+    margin-left: auto;
+    
+}
+
+thead{
+    background-color: indianred;
+}
+table, th, td{
+    background-color: lightpink;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+a.nav-link{
+    color: #d9035c;
+    
+}
+ul.nav{
+    border-bottom: var(--bs-nav-tabs-border-width) solid #cd0362;
+    
+}
+img.banner{
+    width: 100%;
+    height: 102.2%;
+}
+
+div.imagen{
+    border: 2px solid rgb(63, 51, 63);
+    width: 39%;
+    height: 350px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+div.imag{
+    width: 150%;
+    height: 348px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+div.body-details{
+    border: 1px solid rgb(224, 224, 224);
+    padding: 15%;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+main.details{
+    display: flex;
+    justify-content: center;
+}
+img.seeker{
+    width: 30px;
+}
+div.btn{
+    margin-top: 12px;
+}
+div.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    border: 1px solid black;
+    padding: 25%;
+}
+
+img.details{
+    height: 30%;
+}
+div.description{
+    margin: 20%;
+    border-right: 2px solid black;
+}
