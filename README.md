@@ -1,2 +1,2 @@
-# Amazing.Events
-Mind Hub - Argentina Programa 4.0 - 2023 
+# Amazing_Events
+2°  Proyecto  - MindHub - Argentina Programa 4.0

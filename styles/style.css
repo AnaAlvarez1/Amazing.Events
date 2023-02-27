@@ -1,0 +1,255 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+div.container-header{
+    display: flex;
+    flex-direction: column;  
+}
+div.container-navigation{
+    display: flex;
+    
+    
+}
+div.nav{
+    padding: 25px;
+    background-image: url("/assets/img/footer.jpg");
+    width: 100%;
+    justify-content: center;
+}
+img.logo{
+    width: 50%;
+    margin: 5%;
+    
+}
+div.logo{
+    background-color: black;
+}
+div.carousel{
+    background-color: rgb(211, 150, 184);
+    display: flex;
+}
+
+div.container-footer{
+    position: relative;
+}
+div.social-networks{
+    display: flex; 
+    
+}
+h1{
+    text-align: center;
+}
+img.social1{
+    position: absolute;
+    margin: 4px;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+    
+}
+img.social2{
+    position: absolute;
+    margin: 4px;
+    left: 5%;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+  
+}
+img.social3{
+    position: absolute;
+    margin: 4px;
+    left: 10%;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+  
+}
+img.social4{
+    position: absolute;
+    margin: 4px;
+    left: 15%;
+    width: 3.5%;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 10px black;
+
+}
+h2{
+    position: absolute;
+    left: 85%;
+}
+
+h2.cohort{
+    color: black;
+    position: absolute;
+    display: inline-block;
+}
+
+nav.button{
+    display: flex;
+    justify-content: center;
+
+}
+button > a{
+    text-decoration: none;
+}
+div.card-column{
+    display: flex;
+    flex-direction: column;
+}
+div.cards1{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    margin: 15px;
+
+}
+div.cards2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    margin: 15px;
+}
+div.container-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+a>img{
+    margin-top: 50%;
+}
+img.right-arrow{
+    width: 35px;
+
+}
+img.left-arrow{
+    width: 35px;
+}
+span{
+    width: 100%;
+    justify-content: center;
+}
+h1{
+
+}
+div.card1{
+    width: 22.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid fuchsia;
+    box-shadow: 5px 5px 10px rgb(124, 85, 124);
+    
+}
+div.card2{
+    width: 22.7% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid fuchsia;
+    box-shadow: 5px 5px 10px rgb(124, 85, 124);
+}
+div.card3{
+    width: 22.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid fuchsia;
+    box-shadow: 5px 5px 10px rgb(124, 85, 124);
+}
+div.card4{
+    width: 22.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid fuchsia;
+    box-shadow: 5px 5px 10px rgb(124, 85, 124);
+    
+}
+div.card5{
+    width: 22.5% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid fuchsia;
+    box-shadow: 5px 5px 10px rgb(124, 85, 124);
+    
+}
+div.card6{
+    width: 22.6% ;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid fuchsia;
+    box-shadow: 5px 5px 10px rgb(124, 85, 124);
+    
+}
+div.footer-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    
+}
+div.body-card{
+    display: flex;
+    flex-direction: column;
+}
+div.des{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+img.card1{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+}
+img.card2{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+    
+
+}
+img.card3{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+img.card4{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+    
+
+}
+img.card5{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+    
+
+}
+img.card6{
+    height: 170px;
+    border-radius: 15px 15px 15px 15px;
+    
+
+}
+footer{
+    background-image: url("/assets/img/footer.jpg");
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding: 3%;
+    margin-bottom: 50px;
+    border: 2px solid rgb(63, 51, 63);
+
+}
+img.details{
+    width: 100%;
+    height: 300px;
+}
+div.description{
+    display: flex;
+    flex-direction: column;
+}
+div.title{
+    display: inline-block;
+}
