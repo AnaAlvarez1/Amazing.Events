@@ -94,17 +94,22 @@ nav.button{
     display: flex;
     justify-content: center;
 }
-/*
-div.card-column{
+
+div.row{
     display: flex;
-    flex-direction: column ;
+    justify-content: space-between;
 }
-*/
+
+/*
 div.cards1{
     display: flex;
     flex-direction: row; 
     margin: 15px;
 }
+*/
+
+
+
 /*
 div.cards2{
     display: flex;
@@ -138,12 +143,16 @@ span{
 }
 
 div.card1{
-    width: 23.5% ;
+    width: 46.5% ;
     border-radius: 15px 15px 15px 15px;
     border: 1px solid rgb(95, 63, 95);
     box-shadow: 5px 5px 10px rgb(63, 52, 63);
     background-image: url("/assets/img/card.jpg");
-    margin: 10px;
+    padding: 4.0%;
+    height: 95%;
+    color: rgb(95, 63, 95);
+    margin-left: 150px;
+
 }
 /*
 div.card2{
