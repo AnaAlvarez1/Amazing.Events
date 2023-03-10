@@ -6,7 +6,7 @@ function see_cards(cards_list, container){
   container.innerHTML = '';
   if (cards_list.length > 0){
     let fragment = document.createDocumentFragment();
-    for (let card of cards_list){
+    for (var card of cards_list){
       let date_events = new Date(card.date);
       if(date_current < date_events){
         let div = document.createElement('div');
@@ -15,7 +15,7 @@ function see_cards(cards_list, container){
         <div class="des"><h4>${card.name}</h4><p class="description">${card.description}</p>
         </div><div class="footer-card"><div><p class="description-footer">${card.price}</p>
         </div> <div class="button-footer"><button type="button" class="btn btn-outline-danger">
-        <a href="./details.html" class="nav-link">Ver Más</a></button></div></div></div></div>`
+        <a href="./details.html?id=${card._id}" class="nav-link">Ver Más</a></button></div></div></div></div>`
         fragment.appendChild(div);
       }
       container.appendChild(fragment);

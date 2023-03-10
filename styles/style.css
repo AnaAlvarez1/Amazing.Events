@@ -348,9 +348,71 @@ div.opc{
     justify-content:center;
     margin-right: auto;
     margin-left: auto;
-    height: 45%;
 }
 
 div.border{
     width: 50%;
+}
+
+text-decoration-none{
+    color: #000000;
+}
+
+div.card_details_body{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: center;
+    justify-content: space-between;
+    width: 85%;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url(/assets/img/card.jpg);
+
+}
+div.card_details_img{
+    box-shadow: -5px -5px  10px 0px rgb(3, 2, 2);
+    width: 41%;
+    padding: 2%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+figure.card_img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+
+}
+img.card_img{
+   width: 100%;
+   margin-right: 5%;
+   margin-top: 15%;
+   margin-left: 5%;
+   border: 1px solid rgb(165, 42, 99);
+   
+    
+
+}
+
+div.card_main{
+    box-shadow: -5px -5px 10px 0px rgb(0, 0, 0);
+    padding: 2%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-right: 5%;
+    margin-left: 3%;
+    width: 41%;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(165, 42, 99);
+}
+section.card_details{
+    position: relative;
 }
