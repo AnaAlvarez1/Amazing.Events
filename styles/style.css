@@ -26,7 +26,6 @@ div.nav{
 img.logo{
     width: 70%;
     margin: 5%;
-    
 }
 div.logo{
     background-color: black;
@@ -458,21 +457,95 @@ div.seeker{
     margin: 1%;
 }
 
-@media only screen and (max-width: 461px){
-
+@media only screen  and (max-width: 303px){
+    img.right-arrow{
+        width: 10px;
+    }
+    
+    img.left-arrow{
+        width: 10px;
+    }
     div.seeker{
-        margin-top: 40%;
+        position: absolute;
+        margin-top: 300px;
+        justify-content: center;
     }
     img.logo{
         width: 80%;
         margin: 5%;
+        margin-top: 140px;
         
     }
     div.row{
         margin: 10%;
     }
+    div.opc{
+        width: 150%;
+        height: 395px;
+        background-image: url("../assets/img/bas.jpg");
+    }
+
+
 }
-@media only screen and (max-width: 461px){
+
+@media only screen and (min-width: 304px) and (max-width: 355px){
+    img.right-arrow{
+        width: 15px;
+    }
+    
+    img.left-arrow{
+        width: 15px;
+    }
+    div.seeker{
+        position: absolute;
+        margin-top: 200px;
+        justify-content: center;
+    }
+    img.logo{
+        width: 130px;
+        margin: 3px;
+        margin-top: 100px;
+        
+    }
+    div.row{
+        margin: 10%;
+    }
+    div.opc{
+        width: 150%;
+        height: 250px;
+        background-image: url("../assets/img/bas.jpg");
+    }
+    
+
+
+
+}
+@media only screen and (min-width: 356px) and (max-width: 419px){
+
+    
+    img.right-arrow{
+        width: 20px;
+    }
+    
+    img.left-arrow{
+        width: 20px;
+    }
+    div.seeker{
+        margin-top: 150px;
+    }
+    img.logo{
+        width: 150px;
+        margin: 3px;
+        margin-top: 100px;
+        
+    }
+    div.row{
+        margin: 10%;
+    }
+    
+
+}
+@media only screen and (min-width: 420px) and (max-width: 442px){
 
     img.right-arrow{
         width: 20px;
@@ -481,12 +554,24 @@ div.seeker{
     img.left-arrow{
         width: 20px;
     }
+    div.seeker{
+        margin-top: 27%;
+    }
+    img.logo{
+        width: 170px;
+        margin: 3px;
+        margin-top: 90px;
+        
+    }
+    div.row{
+        margin: 10%;
+    }
     
 
 
 }
 
-@media only screen and (min-width: 462px) and (max-width: 555px){
+@media only screen and (min-width: 443px) and (max-width: 555px){
 
     div.seeker{
         margin-top: 18%;
@@ -500,7 +585,14 @@ div.seeker{
         width: 25px;
     }
     div.row{
-        margin: 4%;
+        margin: 4px;
+        margin-top: 85px;
+    }
+    img.logo{
+        width: 180px;
+        margin: 5px;
+        margin-top: 90px;
+        
     }
     
 }
@@ -521,6 +613,16 @@ div.seeker{
     
     img.left-arrow{
         width: 38px;
+    }
+    div.row{
+        margin: 4px;
+        margin-top: 60px;
+    }
+    img.logo{
+        width: 190px;
+        margin: 5px;
+        margin-top: 50px;
+        
     }
 }
 
